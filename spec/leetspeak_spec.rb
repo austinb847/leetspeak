@@ -15,6 +15,6 @@ describe('String#leetspeak') do
   end
 
   it('replaces every I in a string with a 1') do
-    expect("I like Ike".leetspeak).to(eq("1 like3 1k3"))
+    expect("I like Ike".leetspeak).to(eq("1 lik3 1k3"))
   end
 end
