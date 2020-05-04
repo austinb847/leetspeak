@@ -2,6 +2,8 @@ require('pry')
 
 class String
   def leetspeak
-    self
+    sentence = self
+    sentence.gsub!('e', '3')
+    sentence
   end
 end
